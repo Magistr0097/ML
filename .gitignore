@@ -1,0 +1,119 @@
+# =========================
+# DATASETS / DATA FILES
+# =========================
+
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.dat
+
+# =========================
+# ML MODELS / WEIGHTS
+# =========================
+
+*.safetensors
+*.onnx
+*.pb
+*.tflite
+*.gguf
+
+# =========================
+# ARCHIVES
+# =========================
+
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.gz
+*.bz2
+
+# =========================
+# NOTEBOOK OUTPUTS
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# CACHE / TEMP
+# =========================
+
+__pycache__/
+*.pyc
+*.pyo
+*.tmp
+*.temp
+.cache/
+tmp/
+temp/
+
+# =========================
+# ENVIRONMENTS
+# =========================
+
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# JUPYTER
+# =========================
+
+.jupyter/
+*.nbconvert.ipynb
+
+# =========================
+# LOGS
+# =========================
+
+*.log
+
+# =========================
+# OS FILES
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# LARGE DATA DIRECTORIES
+# =========================
+
+data/
+datasets/
+models/
+checkpoints/
+artifacts/
+outputs/
+runs/
+
+# =========================
+# KAGGLE / HF CACHE
+# =========================
+
+.kaggle/
+huggingface/
+.cache/huggingface/
+
+# =========================
+# TORCH / TRANSFORMERS CACHE
+# =========================
+
+torch_cache/
+transformers_cache/

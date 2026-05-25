@@ -1,0 +1,43 @@
+# Core
+numpy==2.2.6
+pandas==1.5.3
+scipy==1.10.1
+
+# PyTorch stack
+torch==2.6.0+cu126
+torchvision==0.21.0+cu126
+torchaudio==2.6.0+cu126
+triton==3.2.0
+
+# HuggingFace ecosystem
+transformers==5.6.1
+datasets==4.8.4
+tokenizers==0.22.2
+huggingface_hub==1.11.0
+accelerate==1.13.0
+trl==1.2.0
+peft==0.19.1
+safetensors==0.7.0
+
+# Training utils
+tqdm==4.67.3
+tensorboard==2.12.3
+
+# Data / utils
+pyarrow==24.0.0
+fsspec==2026.2.0
+dill==0.4.1
+multiprocess==0.70.19
+xxhash==3.6.0
+
+# Text / parsing
+regex==2026.4.4
+
+# Config / utils
+PyYAML==6.0.1
+packaging==23.1
+filelock==3.29.0
+requests==2.33.1
+
+# Optional but useful
+rich==13.4.2
